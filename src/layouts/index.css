@@ -1,0 +1,69 @@
+.normal {
+  font-family: PingFangSC-Regular, PingFang SC;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: normal;
+  /* letter-spacing: -1px; */
+  background: rgb(30, 30, 31);
+  padding: 0.1em 0;
+  color: white;
+  margin: 0;
+  height: 2em;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-row-gap: 20px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.logo {
+  width: 32.71px;
+  height: 37.15px;
+  background: url(../assets/logo.png) no-repeat;
+  background-size: 32.71px 37.15px;
+  vertical-align: middle;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  font-size: 0.6rem;
+  font-weight: bold;
+  letter-spacing: px;
+  padding: 0em 0;
+  color: white;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 0px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.login {
+  font-size: 0.6rem;
+  font-weight: bold;
+  letter-spacing: px;
+  padding: em 0;
+  color: white;
+  margin: 0;
+  align-items: right;
+  vertical-align: middle;
+}
+
+.href {
+  color: white;
+}
+
+.href:hover {
+  color: rgb(159, 166, 175);
+}
