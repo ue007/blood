@@ -3,7 +3,7 @@
   "scripts": {
     "start": "umi dev",
     "build": "umi build",
-    "test": "umi test",
+    "test": "umi test"
   },
   "dependencies": {
     "@antv/g2": "^4.1.20",

@@ -52,8 +52,8 @@ const config: IConfig = {
 			changeOrigin: true,
 		},
 	},
-	base: '/docs/',
-	publicPath: '/docs/',
+	// base: '/docs/',
+	// publicPath: '/docs/',
 	outputPath: '/docs/'
 }
 
