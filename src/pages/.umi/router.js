@@ -154,7 +154,7 @@ const routes = [
           {
             component: () =>
               React.createElement(
-                require('/Users/merlot/Documents/CG/3DForFun/pipeline/web/node_modules/_umi-build-dev@1.18.8@umi-build-dev/lib/plugins/404/NotFound.js')
+                require('/Users/merlot/Documents/CG/3DForFun/blood/blood/node_modules/_umi-build-dev@1.18.8@umi-build-dev/lib/plugins/404/NotFound.js')
                   .default,
                 { pagesPath: 'src/pages', hasRoutesInConfig: true },
               ),
@@ -168,7 +168,7 @@ const routes = [
       {
         component: () =>
           React.createElement(
-            require('/Users/merlot/Documents/CG/3DForFun/pipeline/web/node_modules/_umi-build-dev@1.18.8@umi-build-dev/lib/plugins/404/NotFound.js')
+            require('/Users/merlot/Documents/CG/3DForFun/blood/blood/node_modules/_umi-build-dev@1.18.8@umi-build-dev/lib/plugins/404/NotFound.js')
               .default,
             { pagesPath: 'src/pages', hasRoutesInConfig: true },
           ),
@@ -182,7 +182,7 @@ const routes = [
   {
     component: () =>
       React.createElement(
-        require('/Users/merlot/Documents/CG/3DForFun/pipeline/web/node_modules/_umi-build-dev@1.18.8@umi-build-dev/lib/plugins/404/NotFound.js')
+        require('/Users/merlot/Documents/CG/3DForFun/blood/blood/node_modules/_umi-build-dev@1.18.8@umi-build-dev/lib/plugins/404/NotFound.js')
           .default,
         { pagesPath: 'src/pages', hasRoutesInConfig: true },
       ),

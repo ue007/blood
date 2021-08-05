@@ -5,13 +5,17 @@ const BasicLayout: React.FunctionComponent = props => {
   return (
     <div className={styles.normal}>
       <div className={styles.header}>
+        <a></a>
         <a className={styles.logo} href="./"></a>
         <div className={styles.nav}>
           <a className={styles.href} href="./">
             首页
           </a>
           <a className={styles.href} href="./learning">
-            模型
+            R2D
+          </a>
+          <a className={styles.href} href="./learning">
+            解决方案
           </a>
           <a className={styles.href} href="./puzzlecards">
             帮助

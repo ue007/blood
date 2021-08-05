@@ -20,8 +20,8 @@ export function _onCreate() {
     app.use(plugin);
   });
   
-  app.model({ namespace: 'cards', ...(require('/Users/merlot/Documents/CG/3DForFun/pipeline/web/src/models/cards.ts').default) });
-app.model({ namespace: 'puzzlecards', ...(require('/Users/merlot/Documents/CG/3DForFun/pipeline/web/src/models/puzzlecards.ts').default) });
+  app.model({ namespace: 'cards', ...(require('/Users/merlot/Documents/CG/3DForFun/blood/blood/src/models/cards.ts').default) });
+app.model({ namespace: 'puzzlecards', ...(require('/Users/merlot/Documents/CG/3DForFun/blood/blood/src/models/puzzlecards.ts').default) });
   return app;
 }
 
